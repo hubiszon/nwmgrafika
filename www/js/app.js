@@ -5,7 +5,7 @@ function saveStuff()
 {
     //alert("savin' "+tokenID+" to db");
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "http://wesolyswiatrobotyki.comxa.com/receive.php?client_id=" + encodeURIComponent(tokenID), false);
+    xhr.open("GET", "http://wesolyswiatrobotyki.comxa.com/receive.php?client_id=" + encodeURIComponent(tokenID) + "&uuid="+ encodeURIComponent(diwajs.uuid), false);
     xhr.send();
 } 
 
@@ -49,7 +49,8 @@ function funnyfunction()
     window.plugins.pushNotification.unregister(successHandler, errorHandler);
 
     if (diwajs.platform == "Android") {
-        //alert("masz androida.");
+//        alert("masz androida; uuid: "+diwajs.uuid);
+        
         window.plugins.pushNotification.register(
             successHandler,
             errorHandler,

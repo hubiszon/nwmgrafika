@@ -4,7 +4,7 @@
     "creationData": {
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "projectGuid": "d746979f-741c-4e28-b5ff-1e72234cb5e6",
-      "lastModifiedDate": 1430005803008,
+      "lastModifiedDate": 1429739218593,
       "creationDate": 1429474219466
     },
     "XDK-app-designer": "false",
@@ -61,7 +61,7 @@
           "Orientation": "portrait"
         },
         "isActive_": true,
-        "appName_": "NWM Warszawa",
+        "appName_": "NWM",
         "appID_": "xdk.intel.nwm.nwmapp",
         "appAccess_": [
           {
